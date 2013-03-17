@@ -4,7 +4,7 @@
 use strict;
 use warnings;
 
-our $VERSION = 0.1;
+our $VERSION = 0.2;
 
 use Cwd;
 use Digest::SHA;
@@ -271,7 +271,7 @@ newbg - Set wallpaper like no-one's business
   newbg [--current | --history]
 
   # Restore previous wallpaper on startup
-  newbf -r
+  newbg -r
 
 =head1 DESCRIPTION
 
@@ -378,5 +378,11 @@ contents. Relevant keys are 'good' (number of good votes), 'bad'
 (number of bad votes) and 'bright_adjust' (user-specified brightness
 adjustment for image).
 
-=cut
+=head1 AUTHOR
 
+Richard Harris <richardjharris@gmail.com>
+
+=head1 COPRIGHT AND LICENSE
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
