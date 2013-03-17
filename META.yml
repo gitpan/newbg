@@ -1,0 +1,32 @@
+---
+abstract: "Set wallpaper like no-one's business"
+author:
+  - 'Richard Harris <richardjharris@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.113640'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: newbg
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  File::HomeDir: 0
+  File::Slurp: 0
+  Image::Magick: 0
+  Readonly: 0
+  Time::Duration: 0
+  Try::Tiny: 0
+  X11::Wallpaper: 0
+  YAML: 0
+resources:
+  bugtracker: https://github.com/richardjharris/newbg/issues
+  repository: https://github.com/richardjharris/newbg
+version: 0.1
